@@ -4,6 +4,16 @@
         <h1 id="title">QuizVue</h1>
         <input type="text" id="search-input">
       </header>
+      <section id="quiz-container">
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg" 
+               alt="programming">
+          <div class="card-body">
+            <h2>Programming</h2>
+            <p>2 Questions</p>
+          </div>
+        </div>
+      </section>
     </main>
 </template>
 
@@ -31,4 +41,35 @@ header {
   padding: 10px;
   border-radius: 5px;
 }
+
+#quiz-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  width: 270px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.card-body {
+  padding: 0 15px;
+}
+
+.card-body h2 {
+  font-weight: bold;
+}
+
 </style>
