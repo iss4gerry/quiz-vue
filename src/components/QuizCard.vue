@@ -1,9 +1,17 @@
 <script setup>
-const props = defineProps(['quizez'])
+import { useRouter } from "vue-router"
+
+const { quiz } = defineProps(['quiz'])
+const router = useRouter()
+
+const goToQuiz = () => {
+  router.push({ name: 'quiz', params: { id: quiz.id }})
+}
+
 </script>
 
 <template>
-    <div v-for="quiz in quizez" :key="quiz.id" class="card">
+    <div class="card" @click="goToQuiz">
         <img :src="quiz.img" 
              :alt="quiz.title">
         <div class="card-body">
