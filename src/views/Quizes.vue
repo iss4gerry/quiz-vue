@@ -7,7 +7,7 @@ const quizes = ref(srcQuiz)
 const search = ref('')
 
 watch(search, () => {
-  quizez.value = srcQuiz.filter((quiz) => {
+  quizes.value = srcQuiz.filter((quiz) => {
     return quiz.title.toLowerCase().includes(search.value.toLowerCase())
   })
 })
