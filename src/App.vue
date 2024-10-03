@@ -1,17 +1,17 @@
 <script setup>
-import { RouterView } from 'vue-router'
-
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <main>
-    <RouterView />
-  </main>
+	<main>
+		<RouterView />
+	</main>
 </template>
 
 <style scoped>
 main {
-  max-width: 900px; 
-  margin: 0 auto;
+	font-family: 'Rubik', sans-serif;
+	max-width: 900px;
+	margin: 0 auto;
 }
 </style>

@@ -1,167 +1,811 @@
 [
-    {
-      "id": 1,
-      "img": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "Programming",
-      "questions": [
-        {
-          "id": 1,
-          "text": "What does HTML stand for?",
-          "answers": [
-            {
-              "id": 1,
-              "label": "A",
-              "text": "Hypertext Markup Language",
-              "correct": true
-            },
-            {
-              "id": 2,
-              "label": "B",
-              "text": "Hyperlink and Text Markup Language",
-              "correct": false
-            },
-            {
-              "id": 3,
-              "label": "C",
-              "text": "Home Tool Markup Language",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "Which programming language is known for its use in machine learning and data science?",
-          "answers": [
-            { "id": 1, "label": "A", "text": "Java", "correct": false },
-            { "id": 2, "label": "B", "text": "Python", "correct": true },
-            { "id": 3, "label": "C", "text": "JavaScript", "correct": false }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "img": "https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "Technology",
-      "questions": [
-        {
-          "id": 1,
-          "text": "Who is the co-founder of Microsoft?",
-          "answers": [
-            { "id": 1, "label": "A", "text": "Steve Jobs", "correct": false },
-            { "id": 2, "label": "B", "text": "Bill Gates", "correct": true },
-            { "id": 3, "label": "C", "text": "Mark Zuckerberg", "correct": false }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "What does IoT stand for?",
-          "answers": [
-            {
-              "id": 1,
-              "label": "A",
-              "text": "Internet of Things",
-              "correct": true
-            },
-            {
-              "id": 2,
-              "label": "B",
-              "text": "Innovation of Technology",
-              "correct": false
-            },
-            {
-              "id": 3,
-              "label": "C",
-              "text": "Input Output Terminal",
-              "correct": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "img": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "Science",
-      "questions": [
-        {
-          "id": 1,
-          "text": "What is the chemical symbol for gold?",
-          "answers": [
-            { "id": 1, "label": "A", "text": "Au", "correct": true },
-            { "id": 2, "label": "B", "text": "Ag", "correct": false },
-            { "id": 3, "label": "C", "text": "Fe", "correct": false }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "Who developed the theory of relativity?",
-          "answers": [
-            { "id": 1, "label": "A", "text": "Isaac Newton", "correct": false },
-            { "id": 2, "label": "B", "text": "Albert Einstein", "correct": true },
-            { "id": 3, "label": "C", "text": "Galileo Galilei", "correct": false }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "img": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "Nature",
-      "questions": [
-        {
-          "id": 1,
-          "text": "What is the largest mammal on Earth?",
-          "answers": [
-            { "id": 1, "label": "A", "text": "Elephant", "correct": false },
-            { "id": 2, "label": "B", "text": "Blue Whale", "correct": true },
-            { "id": 3, "label": "C", "text": "Giraffe", "correct": false }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "Which desert is the largest in the world?",
-          "answers": [
-            { "id": 1, "label": "A", "text": "Sahara", "correct": true },
-            { "id": 2, "label": "B", "text": "Gobi", "correct": false },
-            { "id": 3, "label": "C", "text": "Atacama", "correct": false }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "img": "https://images.unsplash.com/photo-1502920514313-52581002a659?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "General Knowledge",
-      "questions": [
-        {
-          "id": 1,
-          "text": "What is the capital of France?",
-          "answers": [
-            { "id": 1, "label": "A", "text": "Berlin", "correct": false },
-            { "id": 2, "label": "B", "text": "Madrid", "correct": false },
-            { "id": 3, "label": "C", "text": "Paris", "correct": true }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "Who wrote 'Romeo and Juliet'?",
-          "answers": [
-            {
-              "id": 1,
-              "label": "A",
-              "text": "Charles Dickens",
-              "correct": false
-            },
-            { "id": 2, "label": "B", "text": "Jane Austen", "correct": false },
-            {
-              "id": 3,
-              "label": "C",
-              "text": "William Shakespeare",
-              "correct": true
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	{
+		"id": 1,
+		"img": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"title": "Programming",
+		"questions": [
+			{
+				"id": 1,
+				"text": "What does HTML stand for?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Hypertext Markup Language",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Hyperlink and Text Markup Language",
+						"correct": false
+					},
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Home Tool Markup Language",
+						"correct": false
+					}
+				]
+			},
+			{
+				"id": 2,
+				"text": "Which programming language is known for its use in machine learning and data science?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Java", "correct": false },
+					{ "id": 2, "label": "B", "text": "Python", "correct": true },
+					{ "id": 3, "label": "C", "text": "JavaScript", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "What does CSS stand for?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Cascading Style Sheets",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Creative Style System",
+						"correct": false
+					},
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Computer Style Sheets",
+						"correct": false
+					}
+				]
+			},
+			{
+				"id": 4,
+				"text": "Which of the following is a programming language?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "HTML",
+						"correct": false
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Python",
+						"correct": true
+					},
+					{
+						"id": 3,
+						"label": "C",
+						"text": "CSS",
+						"correct": false
+					}
+				]
+			},
+			{
+				"id": 5,
+				"text": "What does JS stand for?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "JavaScript",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Java Syntax",
+						"correct": false
+					},
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Just Script",
+						"correct": false
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"img": "https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"title": "Technology",
+		"questions": [
+			{
+				"id": 1,
+				"text": "Who is the co-founder of Microsoft?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Steve Jobs", "correct": false },
+					{ "id": 2, "label": "B", "text": "Bill Gates", "correct": true },
+					{ "id": 3, "label": "C", "text": "Mark Zuckerberg", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "What does IoT stand for?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Internet of Things",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Innovation of Technology",
+						"correct": false
+					},
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Input Output Terminal",
+						"correct": false
+					}
+				]
+			},
+			{
+				"id": 3,
+				"text": "Which programming language is primarily used for Android app development?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Python", "correct": false },
+					{ "id": 2, "label": "B", "text": "Java", "correct": true },
+					{ "id": 3, "label": "C", "text": "C++", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "What does AI stand for?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Artificial Intelligence",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Automated Interface",
+						"correct": false
+					},
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Advanced Integration",
+						"correct": false
+					}
+				]
+			},
+			{
+				"id": 5,
+				"text": "Which company is known for developing the iPhone?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Apple", "correct": true },
+					{ "id": 2, "label": "B", "text": "Samsung", "correct": false },
+					{ "id": 3, "text": "Nokia", "correct": false }
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"img": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"title": "Science",
+		"questions": [
+			{
+				"id": 1,
+				"text": "What is the chemical symbol for gold?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Au", "correct": true },
+					{ "id": 2, "label": "B", "text": "Ag", "correct": false },
+					{ "id": 3, "label": "C", "text": "Fe", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "Who developed the theory of relativity?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Isaac Newton", "correct": false },
+					{ "id": 2, "label": "B", "text": "Albert Einstein", "correct": true },
+					{ "id": 3, "label": "C", "text": "Galileo Galilei", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "What is the powerhouse of the cell?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Nucleus", "correct": false },
+					{ "id": 2, "label": "B", "text": "Mitochondria", "correct": true },
+					{ "id": 3, "label": "C", "text": "Ribosome", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "What is the most abundant gas in the Earth's atmosphere?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Oxygen", "correct": false },
+					{ "id": 2, "label": "B", "text": "Carbon Dioxide", "correct": false },
+					{ "id": 3, "label": "C", "text": "Nitrogen", "correct": true }
+				]
+			},
+			{
+				"id": 5,
+				"text": "What is the speed of light in a vacuum?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "300,000 km/s", "correct": true },
+					{ "id": 2, "label": "B", "text": "150,000 km/s", "correct": false },
+					{ "id": 3, "label": "C", "text": "1,000 km/s", "correct": false }
+				]
+			}
+		]
+	},
+	{
+		"id": 4,
+		"img": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"title": "Nature",
+		"questions": [
+			{
+				"id": 1,
+				"text": "What is the largest mammal on Earth?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Elephant", "correct": false },
+					{ "id": 2, "label": "B", "text": "Blue Whale", "correct": true },
+					{ "id": 3, "label": "C", "text": "Giraffe", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "Which desert is the largest in the world?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Sahara", "correct": true },
+					{ "id": 2, "label": "B", "text": "Gobi", "correct": false },
+					{ "id": 3, "label": "C", "text": "Atacama", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "What is the tallest tree species in the world?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Redwood", "correct": true },
+					{ "id": 2, "label": "B", "text": "Oak", "correct": false },
+					{ "id": 3, "label": "C", "text": "Maple", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "What is the process by which plants make their food using sunlight called?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Photosynthesis", "correct": true },
+					{ "id": 2, "label": "B", "text": "Respiration", "correct": false },
+					{ "id": 3, "label": "C", "text": "Transpiration", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "Which planet is known as the 'Red Planet'?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Mars", "correct": true },
+					{ "id": 2, "label": "B", "text": "Jupiter", "correct": false },
+					{ "id": 3, "label": "C", "text": "Saturn", "correct": false }
+				]
+			}
+		]
+	},
+	{
+		"id": 5,
+		"img": "https://images.unsplash.com/photo-1502920514313-52581002a659?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"title": "General Knowledge",
+		"questions": [
+			{
+				"id": 1,
+				"text": "What is the capital of France?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Berlin", "correct": false },
+					{ "id": 2, "label": "B", "text": "Madrid", "correct": false },
+					{ "id": 3, "label": "C", "text": "Paris", "correct": true }
+				]
+			},
+			{
+				"id": 2,
+				"text": "Who wrote 'Romeo and Juliet'?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Charles Dickens",
+						"correct": false
+					},
+					{ "id": 2, "label": "B", "text": "Jane Austen", "correct": false },
+					{
+						"id": 3,
+						"label": "C",
+						"text": "William Shakespeare",
+						"correct": true
+					}
+				]
+			},
+			{
+				"id": 3,
+				"text": "What is the largest planet in our solar system?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Earth", "correct": false },
+					{ "id": 2, "label": "B", "text": "Jupiter", "correct": true },
+					{ "id": 3, "label": "C", "text": "Saturn", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "What year did the Titanic sink?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "1912", "correct": true },
+					{ "id": 2, "label": "B", "text": "1918", "correct": false },
+					{ "id": 3, "label": "C", "text": "1920", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "Who painted the Mona Lisa?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Vincent van Gogh",
+						"correct": false
+					},
+					{ "id": 2, "label": "B", "text": "Pablo Picasso", "correct": false },
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Leonardo da Vinci",
+						"correct": true
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 6,
+		"img": "https://thedebrief.b-cdn.net/wp-content/uploads/2024/06/sergio-garcia-8lKpEfyFSoY-unsplash.jpg",
+		"title": "History",
+		"questions": [
+			{
+				"id": 1,
+				"text": "Who was the first President of the United States?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "George Washington",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Thomas Jefferson",
+						"correct": false
+					},
+					{ "id": 3, "label": "C", "text": "Abraham Lincoln", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "What year did World War II end?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "1945", "correct": true },
+					{ "id": 2, "label": "B", "text": "1939", "correct": false },
+					{ "id": 3, "label": "C", "text": "1918", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "Who was the first woman to fly solo across the Atlantic Ocean?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Amelia Earhart", "correct": true },
+					{ "id": 2, "label": "B", "text": "Harriet Quimby", "correct": false },
+					{ "id": 3, "label": "C", "text": "Bessie Coleman", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "Which ancient civilization built the pyramids?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Maya", "correct": false },
+					{ "id": 2, "label": "B", "text": "Egyptians", "correct": true },
+					{ "id": 3, "label": "C", "text": "Romans", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "What event started World War I?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Assassination of Archduke Franz Ferdinand",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Invasion of Poland",
+						"correct": false
+					},
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Pearl Harbor Attack",
+						"correct": false
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 7,
+		"img": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0aCUyMGVxdWF0aW9ufGVufDB8fDB8fHww",
+		"title": "Mathematics",
+		"questions": [
+			{
+				"id": 1,
+				"text": "What is the value of Pi (π) to two decimal places?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "3.14", "correct": true },
+					{ "id": 2, "label": "B", "text": "3.16", "correct": false },
+					{ "id": 3, "label": "C", "text": "3.18", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "What is the square root of 64?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "6", "correct": false },
+					{ "id": 2, "label": "B", "text": "8", "correct": true },
+					{ "id": 3, "label": "C", "text": "10", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "What is the value of the golden ratio (φ)?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "1.618", "correct": true },
+					{ "id": 2, "label": "B", "text": "2.618", "correct": false },
+					{ "id": 3, "label": "C", "text": "3.618", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "What is the formula for the area of a circle?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "πr^2", "correct": true },
+					{ "id": 2, "label": "B", "text": "2πr", "correct": false },
+					{ "id": 3, "label": "C", "text": "r^2", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "If a triangle has sides of length 3, 4, and 5, what type of triangle is it?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Equilateral", "correct": false },
+					{ "id": 2, "label": "B", "text": "Isosceles", "correct": false },
+					{ "id": 3, "label": "C", "text": "Right", "correct": true }
+				]
+			}
+		]
+	},
+	{
+		"id": 8,
+		"img": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdlb2dyYXBoeSUyMG1hcHxlbnwwfHwwfHx8MA%3D%3D",
+		"title": "Geography",
+		"questions": [
+			{
+				"id": 1,
+				"text": "Which continent is the Sahara Desert located in?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Africa", "correct": true },
+					{ "id": 2, "label": "B", "text": "Asia", "correct": false },
+					{ "id": 3, "label": "C", "text": "South America", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "What is the longest river in the world?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Amazon", "correct": false },
+					{ "id": 2, "label": "B", "text": "Nile", "correct": true },
+					{ "id": 3, "label": "C", "text": "Yangtze", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "Which country has the largest land area?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Canada", "correct": false },
+					{ "id": 2, "label": "B", "text": "Russia", "correct": true },
+					{ "id": 3, "label": "C", "text": "China", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "What is the capital city of Japan?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Seoul", "correct": false },
+					{ "id": 2, "label": "B", "text": "Beijing", "correct": false },
+					{ "id": 3, "label": "C", "text": "Tokyo", "correct": true }
+				]
+			},
+			{
+				"id": 5,
+				"text": "Which ocean is the largest?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Atlantic Ocean", "correct": false },
+					{ "id": 2, "label": "B", "text": "Indian Ocean", "correct": false },
+					{ "id": 3, "label": "C", "text": "Pacific Ocean", "correct": true }
+				]
+			}
+		]
+	},
+	{
+		"id": 9,
+		"img": "https://www.hindustantimes.com/ht-img/img/2023/08/10/550x309/darya-tryfanava-UCNaGWn4EfU-unsplash_1691671920214_1691671929500.jpg",
+		"title": "Art",
+		"questions": [
+			{
+				"id": 1,
+				"text": "Who painted the Mona Lisa?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Leonardo da Vinci",
+						"correct": true
+					},
+					{ "id": 2, "label": "B", "text": "Pablo Picasso", "correct": false },
+					{
+						"id": 3,
+						"label": "C",
+						"text": "Vincent van Gogh",
+						"correct": false
+					}
+				]
+			},
+			{
+				"id": 2,
+				"text": "Which art movement is Salvador Dalí associated with?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Cubism", "correct": false },
+					{ "id": 2, "label": "B", "text": "Surrealism", "correct": true },
+					{ "id": 3, "label": "C", "text": "Impressionism", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "What is the primary medium used in the artwork of Jackson Pollock?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Oil Paint", "correct": false },
+					{ "id": 2, "label": "B", "text": "Watercolor", "correct": false },
+					{ "id": 3, "label": "C", "text": "Enamel Paint", "correct": true }
+				]
+			},
+			{
+				"id": 4,
+				"text": "Which artist is known for the ceiling of the Sistine Chapel?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Michelangelo", "correct": true },
+					{ "id": 2, "label": "B", "text": "Raphael", "correct": false },
+					{ "id": 3, "label": "C", "text": "Caravaggio", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "What type of painting is characterized by small, visible brush strokes and an emphasis on the effects of light?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Impressionism", "correct": true },
+					{ "id": 2, "label": "B", "text": "Realism", "correct": false },
+					{ "id": 3, "label": "C", "text": "Abstract", "correct": false }
+				]
+			}
+		]
+	},
+	{
+		"id": 10,
+		"img": "https://plus.unsplash.com/premium_photo-1661868906940-5d8443acf49e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BvcnR8ZW58MHx8MHx8fDA%3D",
+		"title": "Sports",
+		"questions": [
+			{
+				"id": 1,
+				"text": "Which country won the FIFA World Cup in 2018?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Brazil", "correct": false },
+					{ "id": 2, "label": "B", "text": "France", "correct": true },
+					{ "id": 3, "label": "C", "text": "Germany", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "In tennis, what is the term for a score of zero?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Nil", "correct": false },
+					{ "id": 2, "label": "B", "text": "Love", "correct": true },
+					{ "id": 3, "label": "C", "text": "Void", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "Which sport is known as 'the king of sports'?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "Football (Soccer)",
+						"correct": true
+					},
+					{ "id": 2, "label": "B", "text": "Basketball", "correct": false },
+					{ "id": 3, "label": "C", "text": "Tennis", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "How many players are there on a standard basketball team?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "5", "correct": true },
+					{ "id": 2, "label": "B", "text": "7", "correct": false },
+					{ "id": 3, "label": "C", "text": "11", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "In which city were the 2020 Summer Olympics held?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Tokyo", "correct": true },
+					{ "id": 2, "label": "B", "text": "Rio de Janeiro", "correct": false },
+					{ "id": 3, "label": "C", "text": "London", "correct": false }
+				]
+			}
+		]
+	},
+	{
+		"id": 11,
+		"img": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D",
+		"title": "Music",
+		"questions": [
+			{
+				"id": 1,
+				"text": "Which famous band was John Lennon a part of?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "The Rolling Stones",
+						"correct": false
+					},
+					{ "id": 2, "label": "B", "text": "The Beatles", "correct": true },
+					{ "id": 3, "text": "Pink Floyd", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "What is the highest-selling album of all time?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Thriller", "correct": true },
+					{ "id": 2, "label": "B", "text": "Back in Black", "correct": false },
+					{ "id": 3, "text": "The Dark Side of the Moon", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "Which pop star is known as the 'Queen of Pop'?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Madonna", "correct": true },
+					{ "id": 2, "label": "B", "text": "Beyoncé", "correct": false },
+					{ "id": 3, "label": "C", "text": "Lady Gaga", "correct": false }
+				]
+			},
+			{
+				"id": 4,
+				"text": "What genre of music is characterized by the use of guitars, drums, and a strong rhythm?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Jazz", "correct": false },
+					{ "id": 2, "label": "B", "text": "Rock", "correct": true },
+					{ "id": 3, "label": "C", "text": "Classical", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "Who is known for the song 'Shape of You'?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Ed Sheeran", "correct": true },
+					{ "id": 2, "label": "B", "text": "Justin Bieber", "correct": false },
+					{ "id": 3, "text": "Drake", "correct": false }
+				]
+			}
+		]
+	},
+	{
+		"id": 12,
+		"img": "https://theboar.org/wp-content/uploads/2018/07/patrick-tomasso-71909-unsplash-compressor.jpg",
+		"title": "Literature",
+		"questions": [
+			{
+				"id": 1,
+				"text": "Who wrote 'Pride and Prejudice'?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Emily Brontë", "correct": false },
+					{ "id": 2, "label": "B", "text": "Jane Austen", "correct": true },
+					{ "id": 3, "label": "C", "text": "Charles Dickens", "correct": false }
+				]
+			},
+			{
+				"id": 2,
+				"text": "What is the first novel ever written?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "The Tale of Genji",
+						"correct": true
+					},
+					{ "id": 2, "label": "B", "text": "Don Quixote", "correct": false },
+					{ "id": 3, "text": "Moby Dick", "correct": false }
+				]
+			},
+			{
+				"id": 3,
+				"text": "Which famous playwright wrote 'Hamlet'?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "William Shakespeare",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Tennessee Williams",
+						"correct": false
+					},
+					{
+						"id": 3,
+						"text": "C",
+						"text": "George Bernard Shaw",
+						"correct": false
+					}
+				]
+			},
+			{
+				"id": 4,
+				"text": "What is the genre of the book '1984' by George Orwell?",
+				"answers": [
+					{ "id": 1, "label": "A", "text": "Dystopian", "correct": true },
+					{ "id": 2, "label": "B", "text": "Romance", "correct": false },
+					{ "id": 3, "text": "C", "text": "Fantasy", "correct": false }
+				]
+			},
+			{
+				"id": 5,
+				"text": "Who is the author of 'The Great Gatsby'?",
+				"answers": [
+					{
+						"id": 1,
+						"label": "A",
+						"text": "F. Scott Fitzgerald",
+						"correct": true
+					},
+					{
+						"id": 2,
+						"label": "B",
+						"text": "Ernest Hemingway",
+						"correct": false
+					},
+					{ "id": 3, "text": "C", "text": "Mark Twain", "correct": false }
+				]
+			}
+		]
+	}
+]
