@@ -15,7 +15,7 @@ watch(search, () => {
 
 <template>
 	<header id="title">
-		<h1 id="title">Qwizzy</h1>
+		<h1 id="title">Qwicy</h1>
 		<input v-model.trim="search" type="text" id="search-input" />
 	</header>
 	<section id="quiz-container">
