@@ -772,7 +772,7 @@
 					},
 					{
 						"id": 3,
-						"text": "C",
+						"label": "C",
 						"text": "George Bernard Shaw",
 						"correct": false
 					}
@@ -784,7 +784,7 @@
 				"answers": [
 					{ "id": 1, "label": "A", "text": "Dystopian", "correct": true },
 					{ "id": 2, "label": "B", "text": "Romance", "correct": false },
-					{ "id": 3, "text": "C", "text": "Fantasy", "correct": false }
+					{ "id": 3, "label": "C", "text": "Fantasy", "correct": false }
 				]
 			},
 			{
@@ -803,7 +803,7 @@
 						"text": "Ernest Hemingway",
 						"correct": false
 					},
-					{ "id": 3, "text": "C", "text": "Mark Twain", "correct": false }
+					{ "id": 3, "label": "C", "text": "Mark Twain", "correct": false }
 				]
 			}
 		]
